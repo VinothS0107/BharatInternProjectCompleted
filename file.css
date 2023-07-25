@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.bg-container{
+
+    background-image:radial-gradient(circle,#548cd6,#01060d);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.card-container{
+    border:4px solid #bcc8d9;
+    width:700px;
+    height:600px;
+    text-align: center;
+    border-radius:10px;
+    overflow: auto;
+}
+.main-heading{
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 30px;
+    
+
+}
+.celsius-container{
+    display: flex;
+    flex-direction: column;
+    padding:20px ;
+}
+.celsius-label{
+
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 25px;
+    text-align: left;
+    
+}
+.input{
+    width: 50%;
+    height: 40px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius:10px;
+    border:1px solid #01060d;
+
+}
+
