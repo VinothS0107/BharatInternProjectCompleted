@@ -1,0 +1,352 @@
+body{
+    margin: 0;
+}
+
+.background-container{
+    background-image: url("file:///C:/Users/HP/OneDrive/Desktop/vinothIntern/Netflix/Netflix%20Images/background_image.png");
+    background-size: cover;
+    height:500px;
+   
+   
+}
+.backgroundcolor-container{
+    background-color: rgba(0, 0, 0, 0.8);
+    height:500px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-conatiner{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:30px 30px 0px 30px;
+    
+}
+#language-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.604);
+    height:40px;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+#dropdownMenu2{
+    background-color: rgba(0, 0, 0, 0.604);
+    border:1px solid #ffffff6d;
+    color: #ffffff;
+
+}
+#dropdownItem{
+    color: #ffffff;
+    width: 50px;
+
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon-class{
+    width:130px;
+}
+.world-icon{
+    color: white;
+    font-size: 20px;
+    margin-right: 8px;
+}
+.language-heading{
+    display: none;
+    color:white;
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 8px;
+
+}
+
+.arrow-icon{
+
+    color: white;
+    font-size: 20px;
+    margin-top: -5px;
+}
+.Sign-btn{
+    color:white;
+    background-color: red;
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 8px;
+    height:40px;
+    width:70px;
+    border: none;
+    border-radius: 5px;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: 30px;
+
+}
+
+.content-head1{
+    text-align: center;
+    color: #ffffff;
+    font-family:sans-serif ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.content-head{
+    text-align: center;
+    color: #ffffff;
+    font-family:sans-serif ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.content-sub{
+    color: #ffffff;
+    font-family:sans-serif ;
+    text-align: start;
+    font-size: 17px;
+}
+.content-main{
+    color: #ffffff;
+    font-family:sans-serif ;
+    font-size: 17px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+
+
+}
+.input-style{
+    margin-top: 20px;
+    width:350px;
+    padding:10px ;
+    background-color: transparent;
+    border: 1px solid  #ffffff6d;
+    border-radius: 5px;
+    height: 46px;
+    font-size: 16px;
+    margin-right:10px ;
+
+}
+.get-start-btn{
+    margin-top: 20px;
+    color:white;
+    background-color:red;
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 8px;
+    height:45px;
+    border: none;
+    width: 130px;
+    border-radius: 5px;
+}
+@media screen and (min-width:768px){
+    .content-container{
+        padding: 20px;
+        flex-wrap: wrap;
+        padding: 20px 50px 20px 50px;
+    
+    }
+    .content-head1{
+       
+        font-size: 40px;
+    }
+    .content-head{
+        font-size: 40px;
+    }
+    .content-sub{
+       
+        font-size: 20px;
+    }
+    .content-main{
+       
+        font-size: 20px;
+    }
+
+    
+    .icon-class{
+        width:170px;
+    }
+    .nav-conatiner{
+        padding:30px 80px 0px 80px;
+        
+    }
+    .language-heading{
+        display: flex;
+
+    }
+    .input-container{
+         display: flex;
+         flex-direction: row;
+     }
+ }
+
+.line-style{
+    margin: 0;
+    width: 100%;
+    height: 8px;
+    background-color:rgb(35, 35, 35);
+    border: none;
+}
+
+
+.second-page-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+   
+}
+.img-style{
+width:400px;
+}
+
+@media screen and (min-width:768px) {
+    
+.second-page-container{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;  
+}
+.second-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+.img-style{
+    order: 1;
+    }
+
+   
+}
+.img-style2{
+    width:400px;
+}
+@media screen and (min-width:768px) {
+    .second-content{
+        width:50%;
+    }
+    .third-content{
+        width:50%;
+    }
+    .content-head{
+        text-align: left;
+    }
+    .img-style2{
+        order: -1;
+    }
+}
+.main-container{
+    padding: 20px;
+    background-color: black;
+
+}
+.question-head{
+    text-align: center;
+    color: #ffffff;
+}
+#buttonId{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    border: none;
+  
+}
+.question{
+    font-size: 17px;
+    color: #ffffff;
+}
+.icon{
+    font-size: 17px;
+    color: #ffffff;
+}
+#backgroundCheck{
+    background-color:rgb(45, 45, 45);
+    border: none;
+    margin-bottom: 10px;
+}
+#cardBody{
+    color: #ffffff;
+    font-family:sans-serif ;
+    font-size: 17px;
+}
+ .input-style-bottom{
+    margin-top: 20px;
+    width:350px;
+    padding:10px ;
+    background-color: transparent;
+    border: 1px solid  #ffffff6d;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 16px;
+    margin-right:10px ;
+    
+ }
+ .color-style{
+    color: #ffffff;
+    font-family:sans-serif ;
+    font-size: 15px;
+    text-decoration: underline;
+    list-style-type: none;
+    
+ }
+ .call-question{
+    color: #ffffff;
+    font-family:sans-serif ;
+    font-size: 17px;
+    list-style-type: none;
+    margin-left: 36px;
+ }
+ span{
+    text-decoration: underline;
+ }
+ .language-heading-footer{
+    color:white;
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 8px;
+
+}
+.language-conatiner-footer{
+    margin-left: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.604);
+    height:40px;
+    border:1px solid #ffffff6d;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+ .footer-net{
+    color: #ffffff;
+    font-family:sans-serif ;
+    font-size: 15px;
+    margin-left: 36px;
+ }
+ .footer{
+    background-color: black;
+    padding: 10px;
+ }
